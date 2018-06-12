@@ -1,0 +1,13 @@
+div.input-city {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.input-title {
+    font-size: 5vw;
+}
+
+.input-box {
+    width: 50%;
+}
