@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Home</title>
         <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="script.js"></script>
     </head>
     <body>
         <div class="input-city">
             <p class="input-title">Please enter a city</p>
-            <input type = "text" class="input-box" placeholder="Enter city here..."/>
-
+            <input type = "text" class="input-box" id="search-Input" onkeypress="nextPage(event)" placeholder = "Enter city here..." />
         </div>
     </body>
 </html>
